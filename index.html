@@ -2,148 +2,104 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Memorial — Filipe Martins Assink</title>
-
 <style>
 *{box-sizing:border-box}
+body{margin:0;background:#f4f0eb;color:#443b35;font-family:Georgia,serif;line-height:1.7}
+header{min-height:70vh;padding:40px 20px;display:flex;align-items:center;justify-content:center;text-align:center;color:white;background:linear-gradient(#0008,#0008),url("1000118481.jpg") center/cover}
+h1{font-size:clamp(40px,9vw,72px);margin:0 0 15px}
+header p{font-size:22px;font-style:italic}
+nav{position:sticky;top:0;background:#332d29;padding:14px 5px;text-align:center;z-index:5}
+nav a{color:white;text-decoration:none;margin:0 7px;font-size:14px}
+main{max-width:950px;margin:auto;padding:25px 15px}
+section{background:#fffdf9;margin:25px 0;padding:28px;border-radius:18px;box-shadow:0 5px 20px #0001}
+h2{text-align:center;color:#69584c;font-size:30px}
+p{font-size:18px}
+.principal{width:100%;max-height:650px;object-fit:cover;border-radius:15px}
+.galeria{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.galeria img{width:100%;height:260px;object-fit:cover;border-radius:12px}
+video{width:100%;border-radius:15px;background:#111}
+.destaque{text-align:center;font-size:22px;font-style:italic;color:#756458}
+footer{text-align:center;padding:35px}
+@media(max-width:600px){section{padding:22px 17px}p{font-size:17px}.galeria img{height:230px}}
+</style>
+</head>
+<body>
 
-html{scroll-behavior:smooth}
+<header>
+<div>
+<h1>Filipe Martins Assink</h1>
+<p>Uma vida que permanece através das lembranças, do amor e das histórias.</p>
+</div>
+</header>
 
-body{
-    margin:0;
-    font-family:Georgia,"Times New Roman",serif;
-    background:#f4f0eb;
-    color:#443b35;
-    line-height:1.8;
-}
+<nav>
+<a href="#quem">Quem foi Filipe</a>
+<a href="#trajetoria">Trajetória</a>
+<a href="#fotos">Memórias</a>
+<a href="#video">Vídeo</a>
+<a href="#homenagem">Homenagem</a>
+</nav>
 
-header{
-    min-height:85vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    padding:40px 20px;
-    background:linear-gradient(rgba(30,25,20,.55),rgba(30,25,20,.55)),
-    url("1000118481.jpg") center/cover;
-    color:white;
-}
+<main>
 
-.capa{
-    max-width:850px;
-}
+<section id="quem">
+<h2>Quem foi Filipe</h2>
+<p>Filipe Martins Assink nasceu em 02 de agosto de 1991. Filho de Célio José Assink e Lissandra Martins Assink, irmão de Leonardo e Natália, cunhado de Amanda e tio amoroso e dedicado de João Guilherme, Anthony e Ravi.</p>
+<p>Filipe foi presença, amizade, alegria, histórias e momentos que permanecem vivos na memória de todos que tiveram a oportunidade de conhecê-lo.</p>
+<p class="destaque">“Algumas pessoas passam pela nossa vida. Outras deixam uma história que permanece para sempre.”</p>
+<img class="principal" src="1000118481.jpg" alt="Filipe Martins Assink">
+</section>
 
-.capa h1{
-    font-size:clamp(38px,8vw,72px);
-    margin:0 0 10px;
-}
+<section id="trajetoria">
+<h2>Sua trajetória</h2>
+<p>Filipe construiu sua história através das pessoas que amava, dos amigos que conquistou e dos momentos que viveu. Sua alegria, seu jeito de ser e sua presença deixaram marcas profundas em todos aqueles que compartilharam a vida com ele.</p>
+<p>Sua história continua sendo contada pelas lembranças, fotografias, vídeos, conversas e por tudo aquilo que mantém sua presença viva entre nós.</p>
+</section>
 
-.capa p{
-    font-size:clamp(18px,4vw,27px);
-    font-style:italic;
-}
+<section id="fotos">
+<h2>Memórias</h2>
+<p class="destaque">Cada fotografia guarda um instante. Cada instante guarda uma história.</p>
+<div class="galeria">
+<img src="1000111379.jpg" alt="Memória de Filipe">
+<img src="1000111380.jpg" alt="Memória de Filipe">
+<img src="1000111381.jpg" alt="Memória de Filipe">
+<img src="1000111382.jpg" alt="Memória de Filipe">
+<img src="1000111383.jpg" alt="Memória de Filipe">
+<img src="1000111411.jpg" alt="Memória de Filipe">
+<img src="1000118481.jpg" alt="Filipe Martins Assink">
+<img src="1000118503.jpg" alt="Memória de Filipe">
+<img src="1000118509.jpg" alt="Memória de Filipe">
+<img src="1000118521.png" alt="Memória de Filipe">
+<img src="1000119551.jpg" alt="Memória de Filipe">
+</div>
+</section>
 
-nav{
-    position:sticky;
-    top:0;
-    z-index:10;
-    background:#332d29;
-    text-align:center;
-    padding:12px 5px;
-}
+<section id="video">
+<h2>Um momento para guardar</h2>
+<p>Algumas lembranças ganham ainda mais vida quando podemos assistir e reviver aqueles momentos.</p>
+<video controls playsinline>
+<source src="1000118480.mp4" type="video/mp4">
+Seu navegador não consegue reproduzir este vídeo.
+</video>
+</section>
 
-nav a{
-    color:#fff;
-    text-decoration:none;
-    margin:0 12px;
-    font-size:15px;
-}
+<section id="homenagem">
+<h2>Homenagem</h2>
+<p class="destaque">Filipe, sua partida deixou saudade, mas também deixou uma história cheia de momentos que jamais serão esquecidos.</p>
+<p class="destaque">Enquanto houver alguém lembrando do seu sorriso, contando uma história sua, olhando uma fotografia ou revivendo um vídeo, um pouco de você continuará presente.</p>
+<p class="destaque"><strong>Você permanece vivo nas lembranças, no carinho e no coração de todos que tiveram a felicidade de conhecer você.</strong></p>
+<img class="principal" src="1000118521.png" alt="Lembrança de Filipe">
+</section>
 
-main{
-    max-width:950px;
-    margin:auto;
-    padding:45px 18px;
-}
+</main>
 
-section{
-    background:#fffdf9;
-    margin-bottom:30px;
-    padding:35px;
-    border-radius:22px;
-    box-shadow:0 5px 25px rgba(0,0,0,.08);
-}
+<footer>
+Memorial em homenagem a Filipe Martins Assink<br>
+02/08/1991 — 19/06/2025<br>
+Para sempre em nossas memórias. ❤️
+</footer>
 
-h2{
-    text-align:center;
-    color:#69584c;
-    font-size:32px;
-    margin-top:0;
-}
-
-p{
-    font-size:18px;
-}
-
-.destaque{
-    text-align:center;
-    font-size:24px;
-    font-style:italic;
-    padding:25px;
-    color:#756458;
-}
-
-.foto-principal{
-    width:100%;
-    max-height:700px;
-    object-fit:cover;
-    border-radius:18px;
-    display:block;
-    margin:25px auto;
-}
-
-.galeria{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:18px;
-}
-
-.galeria img{
-    width:100%;
-    height:300px;
-    object-fit:cover;
-    border-radius:15px;
-    cursor:pointer;
-    transition:.3s;
-}
-
-.galeria img:hover{
-    transform:scale(1.02);
-}
-
-.video{
-    width:100%;
-    border-radius:18px;
-    display:block;
-    background:#111;
-}
-
-.mensagem{
-    text-align:center;
-    font-size:22px;
-    font-style:italic;
-}
-
-footer{
-    text-align:center;
-    padding:35px 15px;
-    color:#756a62;
-}
-
-@media(max-width:600px){
-    section{
-        padding:25px 18px;
-    }
-
-    nav a{
-        margin:0 5px;
+</body>
+</html>
